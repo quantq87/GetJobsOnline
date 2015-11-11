@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C307C31BF243C600D18FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C307C21BF243C600D18FFE /* AppDelegate.swift */; };
+		A2C307C81BF243C600D18FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C307C61BF243C600D18FFE /* Main.storyboard */; };
+		A2C307CA1BF243C600D18FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C307C91BF243C600D18FFE /* Assets.xcassets */; };
+		A2C307CD1BF243C600D18FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C307CB1BF243C600D18FFE /* LaunchScreen.storyboard */; };
+		A2C307D81BF243C600D18FFE /* GetJobOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C307D71BF243C600D18FFE /* GetJobOnlineTests.swift */; };
+		A2C307E31BF243C600D18FFE /* GetJobOnlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C307E21BF243C600D18FFE /* GetJobOnlineUITests.swift */; };
+		A2C307F21BF2446200D18FFE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C307F11BF2446200D18FFE /* BaseViewController.swift */; };
+		A2C307F71BF2482C00D18FFE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C307F61BF2482C00D18FFE /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C307D41BF243C600D18FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C307B71BF243C600D18FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C307BE1BF243C600D18FFE;
+			remoteInfo = GetJobOnline;
+		};
+		A2C307DF1BF243C600D18FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C307B71BF243C600D18FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C307BE1BF243C600D18FFE;
+			remoteInfo = GetJobOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C307BF1BF243C600D18FFE /* GetJobOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetJobOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C307C21BF243C600D18FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2C307C71BF243C600D18FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C307C91BF243C600D18FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C307CC1BF243C600D18FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2C307CE1BF243C600D18FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C307D31BF243C600D18FFE /* GetJobOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetJobOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C307D71BF243C600D18FFE /* GetJobOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJobOnlineTests.swift; sourceTree = "<group>"; };
+		A2C307D91BF243C600D18FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C307DE1BF243C600D18FFE /* GetJobOnlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetJobOnlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C307E21BF243C600D18FFE /* GetJobOnlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJobOnlineUITests.swift; sourceTree = "<group>"; };
+		A2C307E41BF243C600D18FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C307F11BF2446200D18FFE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Jobs/BaseViewControllers/BaseViewController.swift; sourceTree = "<group>"; };
+		A2C307F61BF2482C00D18FFE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Jobs/Views/Main/MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C307BC1BF243C600D18FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307D01BF243C600D18FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307DB1BF243C600D18FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C307B61BF243C600D18FFE = {
+			isa = PBXGroup;
+			children = (
+				A2C307C11BF243C600D18FFE /* GetJobOnline */,
+				A2C307D61BF243C600D18FFE /* GetJobOnlineTests */,
+				A2C307E11BF243C600D18FFE /* GetJobOnlineUITests */,
+				A2C307C01BF243C600D18FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C307C01BF243C600D18FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307BF1BF243C600D18FFE /* GetJobOnline.app */,
+				A2C307D31BF243C600D18FFE /* GetJobOnlineTests.xctest */,
+				A2C307DE1BF243C600D18FFE /* GetJobOnlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C307C11BF243C600D18FFE /* GetJobOnline */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307F31BF2446600D18FFE /* Jobs */,
+				A2C307C21BF243C600D18FFE /* AppDelegate.swift */,
+				A2C307C61BF243C600D18FFE /* Main.storyboard */,
+				A2C307C91BF243C600D18FFE /* Assets.xcassets */,
+				A2C307CB1BF243C600D18FFE /* LaunchScreen.storyboard */,
+				A2C307CE1BF243C600D18FFE /* Info.plist */,
+			);
+			path = GetJobOnline;
+			sourceTree = "<group>";
+		};
+		A2C307D61BF243C600D18FFE /* GetJobOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307D71BF243C600D18FFE /* GetJobOnlineTests.swift */,
+				A2C307D91BF243C600D18FFE /* Info.plist */,
+			);
+			path = GetJobOnlineTests;
+			sourceTree = "<group>";
+		};
+		A2C307E11BF243C600D18FFE /* GetJobOnlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307E21BF243C600D18FFE /* GetJobOnlineUITests.swift */,
+				A2C307E41BF243C600D18FFE /* Info.plist */,
+			);
+			path = GetJobOnlineUITests;
+			sourceTree = "<group>";
+		};
+		A2C307F01BF243D900D18FFE /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307F11BF2446200D18FFE /* BaseViewController.swift */,
+			);
+			name = BaseControllers;
+			sourceTree = "<group>";
+		};
+		A2C307F31BF2446600D18FFE /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307F41BF247C200D18FFE /* Views */,
+				A2C307F01BF243D900D18FFE /* BaseControllers */,
+			);
+			name = Jobs;
+			sourceTree = "<group>";
+		};
+		A2C307F41BF247C200D18FFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307F51BF247D400D18FFE /* Main */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A2C307F51BF247D400D18FFE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2C307F61BF2482C00D18FFE /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C307BE1BF243C600D18FFE /* GetJobOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C307E71BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnline" */;
+			buildPhases = (
+				A2C307BB1BF243C600D18FFE /* Sources */,
+				A2C307BC1BF243C600D18FFE /* Frameworks */,
+				A2C307BD1BF243C600D18FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetJobOnline;
+			productName = GetJobOnline;
+			productReference = A2C307BF1BF243C600D18FFE /* GetJobOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C307D21BF243C600D18FFE /* GetJobOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C307EA1BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnlineTests" */;
+			buildPhases = (
+				A2C307CF1BF243C600D18FFE /* Sources */,
+				A2C307D01BF243C600D18FFE /* Frameworks */,
+				A2C307D11BF243C600D18FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C307D51BF243C600D18FFE /* PBXTargetDependency */,
+			);
+			name = GetJobOnlineTests;
+			productName = GetJobOnlineTests;
+			productReference = A2C307D31BF243C600D18FFE /* GetJobOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2C307DD1BF243C600D18FFE /* GetJobOnlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C307ED1BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnlineUITests" */;
+			buildPhases = (
+				A2C307DA1BF243C600D18FFE /* Sources */,
+				A2C307DB1BF243C600D18FFE /* Frameworks */,
+				A2C307DC1BF243C600D18FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C307E01BF243C600D18FFE /* PBXTargetDependency */,
+			);
+			name = GetJobOnlineUITests;
+			productName = GetJobOnlineUITests;
+			productReference = A2C307DE1BF243C600D18FFE /* GetJobOnlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C307B71BF243C600D18FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Quan Tran";
+				TargetAttributes = {
+					A2C307BE1BF243C600D18FFE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A2C307D21BF243C600D18FFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2C307BE1BF243C600D18FFE;
+					};
+					A2C307DD1BF243C600D18FFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A2C307BE1BF243C600D18FFE;
+					};
+				};
+			};
+			buildConfigurationList = A2C307BA1BF243C600D18FFE /* Build configuration list for PBXProject "GetJobOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C307B61BF243C600D18FFE;
+			productRefGroup = A2C307C01BF243C600D18FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C307BE1BF243C600D18FFE /* GetJobOnline */,
+				A2C307D21BF243C600D18FFE /* GetJobOnlineTests */,
+				A2C307DD1BF243C600D18FFE /* GetJobOnlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C307BD1BF243C600D18FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C307CD1BF243C600D18FFE /* LaunchScreen.storyboard in Resources */,
+				A2C307CA1BF243C600D18FFE /* Assets.xcassets in Resources */,
+				A2C307C81BF243C600D18FFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307D11BF243C600D18FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307DC1BF243C600D18FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C307BB1BF243C600D18FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C307C31BF243C600D18FFE /* AppDelegate.swift in Sources */,
+				A2C307F21BF2446200D18FFE /* BaseViewController.swift in Sources */,
+				A2C307F71BF2482C00D18FFE /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307CF1BF243C600D18FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C307D81BF243C600D18FFE /* GetJobOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C307DA1BF243C600D18FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C307E31BF243C600D18FFE /* GetJobOnlineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C307D51BF243C600D18FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C307BE1BF243C600D18FFE /* GetJobOnline */;
+			targetProxy = A2C307D41BF243C600D18FFE /* PBXContainerItemProxy */;
+		};
+		A2C307E01BF243C600D18FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C307BE1BF243C600D18FFE /* GetJobOnline */;
+			targetProxy = A2C307DF1BF243C600D18FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C307C61BF243C600D18FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C307C71BF243C600D18FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C307CB1BF243C600D18FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C307CC1BF243C600D18FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C307E51BF243C600D18FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C307E61BF243C600D18FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C307E81BF243C600D18FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetJobOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2C307E91BF243C600D18FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetJobOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2C307EB1BF243C600D18FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetJobOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetJobOnline.app/GetJobOnline";
+			};
+			name = Debug;
+		};
+		A2C307EC1BF243C600D18FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetJobOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetJobOnline.app/GetJobOnline";
+			};
+			name = Release;
+		};
+		A2C307EE1BF243C600D18FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetJobOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetJobOnline;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2C307EF1BF243C600D18FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetJobOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mecorp.hiepkhach.GetJobOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetJobOnline;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C307BA1BF243C600D18FFE /* Build configuration list for PBXProject "GetJobOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C307E51BF243C600D18FFE /* Debug */,
+				A2C307E61BF243C600D18FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C307E71BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C307E81BF243C600D18FFE /* Debug */,
+				A2C307E91BF243C600D18FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C307EA1BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C307EB1BF243C600D18FFE /* Debug */,
+				A2C307EC1BF243C600D18FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C307ED1BF243C600D18FFE /* Build configuration list for PBXNativeTarget "GetJobOnlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C307EE1BF243C600D18FFE /* Debug */,
+				A2C307EF1BF243C600D18FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C307B71BF243C600D18FFE /* Project object */;
+}
